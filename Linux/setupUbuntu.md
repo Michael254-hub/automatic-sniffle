@@ -49,10 +49,17 @@ I chose Ubuntu for being developer focused and beginner friendly.
 
    * **Rufus** (on Windows)
    * **Balena Etcher** (cross-platform) - used it after downloading from [etcher.io](etcher.io) - official platform.
-4. Open Rufus → Select your USB → Choose the ISO → Set Partition scheme:
 
-   * **GPT** for UEFI systems (most modern PCs)
-   * **MBR** for Legacy BIOS
+4. Opened **balenaEtcher** → Selected my ISO image → Chose the drive → Flashed.
+
+5. Click **Start** to create the bootable USB.
+
+If I would have used **Rufus**, the following would have been the processes:
+
+4. Open **Rufus** → Select your USB → Choose the ISO → Set Partition scheme:
+
+   * **GPT for GUID Partition Table** for UEFI systems (most modern PCs)
+   * **MBR for Master Boot Recorder** for Legacy BIOS
 5. Click **Start** to create the bootable USB.
 
 ---
